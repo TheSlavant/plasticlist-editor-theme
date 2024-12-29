@@ -1,7 +1,7 @@
 # PlasticList Theme
 
-![PlasticList UI](plasticlist.png)
-![PlasticList-Theme](plasticlist-theme.png)
+![PlasticList UI](images/plasticlist.png)
+![PlasticList-Theme](images/plasticlist-theme.png)
 
 Ever wanted to feel like a jet pilot controlling an cool-looking, information-dense dashboard while you code? Well, now you can.
 
