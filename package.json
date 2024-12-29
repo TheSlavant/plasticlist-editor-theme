@@ -1,0 +1,37 @@
+{
+  "name": "plasticlist-theme",
+  "displayName": "PlasticList Theme",
+  "publisher": "yaroslavshipilov",
+  "description": "A theme inspired by plasticlist.org",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.70.0",
+    "cursor": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+
+  "main": "./extension.js",
+  "activationEvents": ["*"],
+  
+  "contributes": {
+    "themes": [
+      {
+        "label": "PlasticList",
+        "uiTheme": "vs-dark",
+        "path": "./themes/plasticlist-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[PlasticList]": {
+        "editor.fontFamily": "Departure Mono"
+      }
+    }
+  },
+  "files": [
+    "themes/**/*",
+    "extension.js",
+    "README.md"
+  ]
+}
