@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Departure Mono";
+  src: url("vscode:extension/yaroslavshipilov.plasticlist-theme/fonts/DepartureMono-Regular.woff2") format("woff2"),
+       url("vscode:extension/yaroslavshipilov.plasticlist-theme/fonts/DepartureMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
